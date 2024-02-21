@@ -1,0 +1,3 @@
+ "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "homepage": "https://8sosa.github.io/portfolio",

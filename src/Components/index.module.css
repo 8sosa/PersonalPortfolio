@@ -172,7 +172,7 @@ code {
         margin-top: 50px;
     }
     .meBtn:hover, .meBtn:focus, .meBtn:active {
-        background-image: url(/Users/bigsosa/Documents/portfolio1/front/src/Components/Images/picolo.jpeg);
+        background-image: url('../Components/Images/picolo.jpeg');
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat; 

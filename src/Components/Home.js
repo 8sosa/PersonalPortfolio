@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Container, Col, Row} from 'react-bootstrap';
 
-import style from './index.module.css'
-import Me from './Images/me.png'
-import Picolo from './Images/picolo.jpeg'
-import Vid from './Videos/vid.mp4'
+import style from './index.module.css';
+import Me from './Images/me.png';
+import Steezed from './Images/steezedlogo.png';
+import SteezedVid from './Videos/2vid.mp4';
+import Stickup from './Images/stickuplogo.png';
+import StickupVid from './Videos/home.mp4';
 
 
 export default function Home() {
@@ -36,38 +38,40 @@ export default function Home() {
             <section className={style.projectSection}>
                 <h1 className={style.Txt1}>Recent Works</h1>
                 <div className={style.projects}>
-                    <a href='/work1'>
-                                <Row className={style.project}>
-                                    <Col>
-                                        <div className={style.hoverContainer}>
-                                            <div className={style.background}>
-                                                <img src={Picolo} alt='project' className={style.projectImage}/>
-                                                <video src={Vid} alt="Background Video" className={style.video} loop muted autoPlay playsInline />
-                                            </div>
-                                        </div>   
-                                    </Col>
-                                    <Col className='d-flex flex-column align-items-end'>
-                                        <h1 className={style.Txt2}>steezed</h1>
-                                        <h1 className={style.Txt3}>design & development</h1>
-                                    </Col>
-                                </Row>
-                            </a> 
-                    <a href='/work1'>
-                                <Row className={style.project}>
-                                    <Col>
-                                        <div className={style.hoverContainer}>
-                                            <div className={style.background}>
-                                                <img src={Picolo} alt='project' className={style.projectImage}/>
-                                                <video src={Vid} alt="Background Video" className={style.video} loop muted autoPlay playsInline />
-                                            </div>
-                                        </div>   
-                                    </Col>
-                                    <Col className='d-flex flex-column align-items-end'>
-                                        <h1 className={style.Txt2}>steezed</h1>
-                                        <h1 className={style.Txt3}>design & development</h1>
-                                    </Col>
-                                </Row>
-                            </a> 
+                <a href='/steezed'>
+                    <Row className={style.project}>
+                        <Col>
+                            <div className={style.hoverContainer}>
+                                <div className={style.background}>
+                                    <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
+                                    <video src={SteezedVid} alt="project Steezed Background Video" className={style.video} loop muted autoPlay playsInline />
+                                </div>
+                            </div>   
+                        </Col>
+                        <Col className='d-flex flex-column align-items-end'>
+                            <h1 className={style.Txt2}>steezed</h1>
+                            <h1 className={style.Txt3}>design & development</h1>
+                            <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
+                        </Col>
+                    </Row>
+                </a> 
+                <a href='/Stick-up'>
+                    <Row className={style.project}>
+                        <Col>
+                            <div className={style.hoverContainer}>
+                                <div className={style.background}>
+                                    <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
+                                    <video src={StickupVid} alt="project Stickup Background Video" className={style.video} loop muted autoPlay playsInline />
+                                </div>
+                            </div>   
+                        </Col>
+                        <Col className='d-flex flex-column align-items-end'>
+                            <h1 className={style.Txt2}>STICK UP</h1>
+                            <h1 className={style.Txt3}>design & development</h1>
+                            <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
+                        </Col>
+                    </Row>
+                </a> 
                 </div>
             </section>
         </Container>

@@ -3,8 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Col, Row, Nav, Tab} from 'react-bootstrap';
 
 import style from './index.module.css'
-import Picolo from './Images/picolo.jpeg'
-import Vid from './Videos/vid.mp4'
+import Steezed from './Images/steezedlogo.png'
+import SteezedVid from './Videos/2vid.mp4'
+import Stickup from './Images/stickuplogo.png';
+import StickupVid from './Videos/home.mp4';
 
 
 
@@ -36,137 +38,145 @@ export default function Projects() {
                         </Nav>
                         <Tab.Content>
                             <Tab.Pane eventKey="first">
-                            <a href='/work1'>
+                            <a href='/steezed'>
                                 <Row className={style.project}>
                                     <Col>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
-                                                <img src={Picolo} alt='project' className={style.projectImage}/>
-                                                <video src={Vid} alt="Background Video" className={style.video} loop muted autoPlay playsInline />
+                                                <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
+                                                <video src={SteezedVid} alt="project Steezed Background Video" className={style.video} loop muted autoPlay playsInline />
                                             </div>
                                         </div>   
                                     </Col>
                                     <Col className='d-flex flex-column align-items-end'>
                                         <h1 className={style.Txt2}>steezed</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
+                                        <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
                                     </Col>
                                 </Row>
                             </a> 
-                            <a href='/work1'>
+                            <a href='/Stick-up'>
                                 <Row className={style.project}>
                                     <Col>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
-                                                <img src={Picolo} alt='project' className={style.projectImage}/>
-                                                <video src={Vid} alt="Background Video" className={style.video} loop muted autoPlay playsInline />
+                                                <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
+                                                <video src={StickupVid} alt="project Stickup Background Video" className={style.video} loop muted autoPlay playsInline />
                                             </div>
                                         </div>   
                                     </Col>
                                     <Col className='d-flex flex-column align-items-end'>
-                                        <h1 className={style.Txt2}>steezed</h1>
+                                        <h1 className={style.Txt2}>STICK UP</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
+                                        <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
                                     </Col>
                                 </Row>
                             </a> 
                             </Tab.Pane>
                             <Tab.Pane eventKey="second">
-                            <a href='/work1'>
+                            <a href='/steezed'>
                                 <Row className={style.project}>
                                     <Col>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
-                                                <img src={Picolo} alt='project' className={style.projectImage}/>
-                                                <video src={Vid} alt="Background Video" className={style.video} loop muted autoPlay playsInline />
+                                                <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
+                                                <video src={SteezedVid} alt="project Steezed Background Video" className={style.video} loop muted autoPlay playsInline />
                                             </div>
                                         </div>   
                                     </Col>
                                     <Col className='d-flex flex-column align-items-end'>
                                         <h1 className={style.Txt2}>steezed</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
+                                        <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
                                     </Col>
                                 </Row>
                             </a> 
-                            <a href='/work1'>
+                            <a href='/Stick-up'>
                                 <Row className={style.project}>
                                     <Col>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
-                                                <img src={Picolo} alt='project' className={style.projectImage}/>
-                                                <video src={Vid} alt="Background Video" className={style.video} loop muted autoPlay playsInline />
+                                                <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
+                                                <video src={StickupVid} alt="project Stickup Background Video" className={style.video} loop muted autoPlay playsInline />
                                             </div>
                                         </div>   
                                     </Col>
                                     <Col className='d-flex flex-column align-items-end'>
-                                        <h1 className={style.Txt2}>steezed</h1>
+                                        <h1 className={style.Txt2}>STICK UP</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
+                                        <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
                                     </Col>
                                 </Row>
                             </a> 
                             </Tab.Pane>
                             <Tab.Pane eventKey="third">
-                            <a href='/work1'>
+                            <a href='/steezed'>
                                 <Row className={style.project}>
                                     <Col>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
-                                                <img src={Picolo} alt='project' className={style.projectImage}/>
-                                                <video src={Vid} alt="Background Video" className={style.video} loop muted autoPlay playsInline />
+                                                <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
+                                                <video src={SteezedVid} alt="project Steezed Background Video" className={style.video} loop muted autoPlay playsInline />
                                             </div>
                                         </div>   
                                     </Col>
                                     <Col className='d-flex flex-column align-items-end'>
                                         <h1 className={style.Txt2}>steezed</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
+                                        <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
                                     </Col>
                                 </Row>
                             </a> 
-                            <a href='/work1'>
+                            <a href='/Stick-up'>
                                 <Row className={style.project}>
                                     <Col>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
-                                                <img src={Picolo} alt='project' className={style.projectImage}/>
-                                                <video src={Vid} alt="Background Video" className={style.video} loop muted autoPlay playsInline />
+                                                <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
+                                                <video src={StickupVid} alt="project Stickup Background Video" className={style.video} loop muted autoPlay playsInline />
                                             </div>
                                         </div>   
                                     </Col>
                                     <Col className='d-flex flex-column align-items-end'>
-                                        <h1 className={style.Txt2}>steezed</h1>
+                                        <h1 className={style.Txt2}>STICK UP</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
+                                        <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
                                     </Col>
                                 </Row>
                             </a> 
                             </Tab.Pane>
                             <Tab.Pane eventKey="fourth">
-                            <a href='/work1'>
+                            <a href='/steezed'>
                                 <Row className={style.project}>
                                     <Col>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
-                                                <img src={Picolo} alt='project' className={style.projectImage}/>
-                                                <video src={Vid} alt="Background Video" className={style.video} loop muted autoPlay playsInline />
+                                                <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
+                                                <video src={SteezedVid} alt="project Steezed Background Video" className={style.video} loop muted autoPlay playsInline />
                                             </div>
                                         </div>   
                                     </Col>
                                     <Col className='d-flex flex-column align-items-end'>
                                         <h1 className={style.Txt2}>steezed</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
+                                        <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
                                     </Col>
                                 </Row>
                             </a> 
-                            <a href='/work1'>
+                            <a href='/Stick-up'>
                                 <Row className={style.project}>
                                     <Col>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
-                                                <img src={Picolo} alt='project' className={style.projectImage}/>
-                                                <video src={Vid} alt="Background Video" className={style.video} loop muted autoPlay playsInline />
+                                                <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
+                                                <video src={StickupVid} alt="project Stickup Background Video" className={style.video} loop muted autoPlay playsInline />
                                             </div>
                                         </div>   
                                     </Col>
                                     <Col className='d-flex flex-column align-items-end'>
-                                        <h1 className={style.Txt2}>steezed</h1>
+                                        <h1 className={style.Txt2}>STICK UP</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
+                                        <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
                                     </Col>
                                 </Row>
                             </a> 

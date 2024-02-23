@@ -15,24 +15,22 @@ export default function Projects() {
     <>
         <Container className={style.page}>
             <section className={style.whiteSection}>
-                <p className={style.projTxt}>
-                    BREATHING DIGITAL <span class={style.green}>LIFE</span> INTO <span class={style.purple}>IDEAS</span>.
-                </p>
+                <p className={style.projTxt}>BREATHING DIGITAL <span class={style.green}>LIFE</span> INTO <span class={style.purple}>IDEAS</span>.</p>
             </section>
             <section className={style.projectSection}>
                 <div className={style.projects}>
                     <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                         <Nav variant="pills" defaultActiveKey="first">
-                            <Nav.Item>
+                            <Nav.Item className={style.navlinkpill}>
                                 <Nav.Link eventKey="first" className={style.navLink}>All</Nav.Link>
                             </Nav.Item>
-                            <Nav.Item>
+                            <Nav.Item className={style.navlinkpill}>
                                 <Nav.Link eventKey="second" className={style.navLink}>design</Nav.Link>
                             </Nav.Item>
-                            <Nav.Item>
+                            <Nav.Item className={style.navlinkpill}>
                                 <Nav.Link eventKey="third" className={style.navLink}>development</Nav.Link>
                             </Nav.Item>
-                            <Nav.Item>
+                            <Nav.Item className={style.navlinkpill}>
                                 <Nav.Link eventKey="fourth" className={style.navLink}>the morales</Nav.Link>
                             </Nav.Item>
                         </Nav>
@@ -40,7 +38,7 @@ export default function Projects() {
                             <Tab.Pane eventKey="first">
                             <a href='/steezed'>
                                 <Row className={style.project}>
-                                    <Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
                                                 <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
@@ -48,7 +46,7 @@ export default function Projects() {
                                             </div>
                                         </div>   
                                     </Col>
-                                    <Col className='d-flex flex-column align-items-end'>
+                                    <Col className={style.projectAttribute}>
                                         <h1 className={style.Txt2}>steezed</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
                                         <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
@@ -57,7 +55,7 @@ export default function Projects() {
                             </a> 
                             <a href='/Stick-up'>
                                 <Row className={style.project}>
-                                    <Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
                                                 <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
@@ -65,7 +63,7 @@ export default function Projects() {
                                             </div>
                                         </div>   
                                     </Col>
-                                    <Col className='d-flex flex-column align-items-end'>
+                                    <Col className={style.projectAttribute}>
                                         <h1 className={style.Txt2}>STICK UP</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
                                         <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
@@ -76,7 +74,7 @@ export default function Projects() {
                             <Tab.Pane eventKey="second">
                             <a href='/steezed'>
                                 <Row className={style.project}>
-                                    <Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
                                                 <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
@@ -84,7 +82,7 @@ export default function Projects() {
                                             </div>
                                         </div>   
                                     </Col>
-                                    <Col className='d-flex flex-column align-items-end'>
+                                    <Col className={style.projectAttribute}>
                                         <h1 className={style.Txt2}>steezed</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
                                         <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
@@ -93,7 +91,7 @@ export default function Projects() {
                             </a> 
                             <a href='/Stick-up'>
                                 <Row className={style.project}>
-                                    <Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
                                                 <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
@@ -101,7 +99,7 @@ export default function Projects() {
                                             </div>
                                         </div>   
                                     </Col>
-                                    <Col className='d-flex flex-column align-items-end'>
+                                    <Col className={style.projectAttribute}>
                                         <h1 className={style.Txt2}>STICK UP</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
                                         <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
@@ -112,7 +110,7 @@ export default function Projects() {
                             <Tab.Pane eventKey="third">
                             <a href='/steezed'>
                                 <Row className={style.project}>
-                                    <Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
                                                 <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
@@ -120,7 +118,7 @@ export default function Projects() {
                                             </div>
                                         </div>   
                                     </Col>
-                                    <Col className='d-flex flex-column align-items-end'>
+                                    <Col className={style.projectAttribute}>
                                         <h1 className={style.Txt2}>steezed</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
                                         <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
@@ -129,7 +127,7 @@ export default function Projects() {
                             </a> 
                             <a href='/Stick-up'>
                                 <Row className={style.project}>
-                                    <Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
                                                 <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
@@ -137,7 +135,7 @@ export default function Projects() {
                                             </div>
                                         </div>   
                                     </Col>
-                                    <Col className='d-flex flex-column align-items-end'>
+                                    <Col className={style.projectAttribute}>
                                         <h1 className={style.Txt2}>STICK UP</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
                                         <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
@@ -148,7 +146,7 @@ export default function Projects() {
                             <Tab.Pane eventKey="fourth">
                             <a href='/steezed'>
                                 <Row className={style.project}>
-                                    <Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
                                                 <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
@@ -156,7 +154,7 @@ export default function Projects() {
                                             </div>
                                         </div>   
                                     </Col>
-                                    <Col className='d-flex flex-column align-items-end'>
+                                    <Col className={style.projectAttribute}>
                                         <h1 className={style.Txt2}>steezed</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
                                         <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
@@ -165,7 +163,7 @@ export default function Projects() {
                             </a> 
                             <a href='/Stick-up'>
                                 <Row className={style.project}>
-                                    <Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.hoverContainer}>
                                             <div className={style.background}>
                                                 <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
@@ -173,7 +171,7 @@ export default function Projects() {
                                             </div>
                                         </div>   
                                     </Col>
-                                    <Col className='d-flex flex-column align-items-end'>
+                                    <Col className={style.projectAttribute}>
                                         <h1 className={style.Txt2}>STICK UP</h1>
                                         <h1 className={style.Txt3}>design & development</h1>
                                         <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>

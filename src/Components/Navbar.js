@@ -14,16 +14,16 @@ export default function NavBar() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id='responsive-navbar-nav' className={style.navLinks}>
-                <Nav>
-                    <Nav.Link href='/works'>
-                        <h1 className={style.link}>projects</h1>
-                    </Nav.Link>
-                    <Nav.Link href='/about-me'>
-                        <h1 className={style.link}>me?</h1>
-                    </Nav.Link>
-                    <Nav.Link href='/contact-me'>
-                        <h1 className={style.link}>reach out</h1>
-                    </Nav.Link>
+                <Nav className={style.navLinksDiv}>
+                  <Nav.Link href='/works'>
+                      <h1 className={style.link}>projects</h1>
+                  </Nav.Link>
+                  <Nav.Link href='/about-me'>
+                      <h1 className={style.link}>me?</h1>
+                  </Nav.Link>
+                  <Nav.Link href='/contact-me'>
+                      <h1 className={style.link}>reach out</h1>
+                  </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>

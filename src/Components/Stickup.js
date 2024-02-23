@@ -23,13 +23,14 @@ export default function Stickup() {
                 <section className={style.whiteBg}>
                     <div className={style.projectHero}>
                         <Row>
-                            <Col>
+                            <Col className='d-flex flex-column'>
                                 <img src={StickupPic} alt='project' className={style.heroPic}/>
+                                <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
                             </Col>
                             <Col className={style.heroTxtBox}>
                                 <h1 className={style.heroText1}>STICK UP</h1>
                                 <p className={style.heroText2}>A note making app with organization functionality for you to store your secrets... or any other thing you want.</p>
-                                <Row className='mt-5'>
+                                <Row className='d-flex flex-row mt-auto'>
                                     <Col md={'auto'}>
                                         <div className={style.tag}>design</div>
                                     </Col>
@@ -46,46 +47,46 @@ export default function Stickup() {
                         <p className={style.projectBodyText}><span className={style.lighterPurple}>Stick Up</span> provides you with the perfect platform to create and manage your notes with ease. With a simple note creation feature, you can quickly capture your thoughts and ideas, ensuring that you never miss an important detail. Join the <span className={style.lighterPurple}>Stick Up</span> community today and discover the joy of organized note-taking in just a few clicks.</p>
                     </div>
                     <div className='d-flex justify-content-center'>
-                    <Row>
-                        <Col>
-                            <img src={Laptop} alt='Project' className={style.protoPic3}/>
+                    <Row className={style.fullWidth2}>
+                        <Col className='d-flex justify-content-center'>
+                            <img src={Laptop} alt='Project' className={style.protoPic4}/>
                         </Col>
-                        <Col className='d-flex align-items-center'>
+                        <Col className='d-flex justify-content-center'>
                             <img src={Tablet} alt='Project' className={style.protoPic1}/>
                         </Col>
-                        <Col className='d-flex align-items-center'>
+                        <Col className='d-flex justify-content-center'>
                             <img src={Mob} alt='Project' className={style.protoPic2}/>
                         </Col>
                     </Row>
                     </div>
-                    <div className={style.skittles}>
+                    <div className='d-flex justify-content-center mt-5'>
                         <Row sm={3} md={3} lg={3} className={style.skills}>
-                            <Col>
+                            <Col className='d-flex justify-content-center'>
                                 <div class={style.jsPill} >
                                     <h1 class={style.skillPillTxt}>js</h1>
                                 </div>
                             </Col>
-                            <Col>
+                            <Col className='d-flex justify-content-center'>
                                 <div class={style.mongoPill} >
                                     <h1 class={style.skillPillTxt}>MONGO DB</h1>
                                 </div>
                             </Col>
-                            <Col>
+                            <Col className='d-flex justify-content-center'>
                                 <div class={style.htmlPill} >
                                     <h1 class={style.skillPillTxt}>HTML</h1>
                                 </div>
                             </Col>
-                            <Col>
+                            <Col className='d-flex justify-content-center'>
                                 <div class={style.cssPill} >
                                     <h1 class={style.skillPillTxt}>CSS</h1>
                                 </div>
                             </Col>
-                            <Col>
+                            <Col className='d-flex justify-content-center'>
                                 <div class={style.reactPill} >
                                     <h1 class={style.skillPillTxt}>REACT JS</h1>
                                 </div>
                             </Col>
-                            <Col>
+                            <Col className='d-flex justify-content-center'>
                                 <div class={style.nodePill} >
                                     <h1 class={style.skillPillTxt}>NODE JS</h1>
                                 </div>
@@ -94,12 +95,20 @@ export default function Stickup() {
                     </div>
                 </section>
                 <section className={style.blackBg}>
-                    <div className='d-flex flex-column align-items-center'>
+                    <div className={style.fullWidth3}>
                         <h1 className={style.header}>WHAT WE DID</h1>
                         <p className={style.wwdHeaderTxt}>For "STICK UP" we had one goal, to make a simple CRUD (Create Read Update Delete) app, and we did it. More on the features below.</p>
                         <ol className={style.list2}>
                             <Row className={style.wwdRow}>
                                 <Col>
+                                    <div className='d-flex flex-column align-items-end p-4'>
+                                        <li className={style.wwdli}> 
+                                            <h1 className={style.wwdheader}>User-Friendly Registration</h1>
+                                            <p className={style.wwdTxt}>Joining Stick Up is a breeze! Sign up with just a few clicks and become part of our vibrant note-taking community. Whether you're a student, professional, or avid note-taker, our user-friendly registration process ensures you can start organizing your thoughts in no time.</p>
+                                        </li>
+                                    </div>
+                                </Col>
+                                <Col className='d-flex justify-content-center'>
                                     <div className={style.projContainer}>
                                         <div className={style.projBg}>
                                             <img src={Login} alt='proj'  className={style.wwdPic}/>
@@ -107,25 +116,17 @@ export default function Stickup() {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
-                                    <div className='d-flex flex-column align-items-end p-5'>
-                                        <li> 
-                                            <h1 className={style.wwdheader}>User-Friendly Registration</h1>
-                                            <p className={style.wwdTxt}>Joining Stick Up is a breeze! Sign up with just a few clicks and become part of our vibrant note-taking community. Whether you're a student, professional, or avid note-taker, our user-friendly registration process ensures you can start organizing your thoughts in no time.</p>
-                                        </li>
-                                    </div>
-                                </Col>
                             </Row>
                             <Row className={style.wwdRow}>
                                 <Col>
-                                    <div className='d-flex flex-column align-items-end p-5'>
-                                        <li> 
-                                            <h1 className={style.wwdheader}> Effortless Note Creation and Editing</h1>
+                                    <div className='d-flex flex-column align-items-end p-4'>
+                                        <li className={style.wwdli}> 
+                                            <h1 className={style.wwdheader}> Easy Note Creation and Editing</h1>
                                             <p className={style.wwdTxt}>Creating and editing notes has never been easier. With Stick Up, you can quickly jot down your thoughts or ideas. If you need to make changes, simply edit your notes and update them with new content or move them to a different folder. It's that simple!</p>
                                         </li>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col className='d-flex justify-content-center'>
                                     <div className={style.projContainer}>
                                         <div className={style.projBg}>
                                             <img src={CNote} alt='proj'  className={style.wwdPic}/>
@@ -136,6 +137,14 @@ export default function Stickup() {
                             </Row>
                             <Row className={style.wwdRow}>
                                 <Col>
+                                    <div className='d-flex flex-column align-items-end p-4'>
+                                        <li className={style.wwdli}> 
+                                            <h1 className={style.wwdheader}>Organize with Folders</h1>
+                                            <p className={style.wwdTxt}>Say goodbye to cluttered note-taking! Stick Up allows you to create folders to categorize your notes. Whether it's for personal, work, or educational purposes, our folder creation feature helps you stay organized and find your notes with ease.</p>
+                                        </li>
+                                    </div>
+                                </Col>
+                                <Col className='d-flex justify-content-center'>
                                     <div className={style.projContainer}>
                                         <div className={style.projBg}>
                                             <img src={CFold} alt='proj'  className={style.wwdPic}/>
@@ -143,25 +152,17 @@ export default function Stickup() {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
-                                    <div className='d-flex flex-column align-items-end p-5'>
-                                        <li> 
-                                            <h1 className={style.wwdheader}>Organize with Folders</h1>
-                                            <p className={style.wwdTxt}>Say goodbye to cluttered note-taking! Stick Up allows you to create folders to categorize your notes. Whether it's for personal, work, or educational purposes, our folder creation feature helps you stay organized and find your notes with ease.</p>
-                                        </li>
-                                    </div>
-                                </Col>
                             </Row>
                             <Row className={style.wwdRow}>
                                 <Col>
-                                    <div className='d-flex flex-column align-items-end p-5'>
-                                        <li> 
-                                            <h1 className={style.wwdheader}>Intuitive Design for Easy Navigation</h1>
+                                    <div className='d-flex flex-column align-items-end p-4'>
+                                        <li className={style.wwdli}> 
+                                            <h1 className={style.wwdheader}>Easy Navigation</h1>
                                             <p className={style.wwdTxt}>We believe in simplicity and ease of use. Stick Up's intuitive design allows for effortless navigation, making it a pleasure to create, organize, and access your notes. Spend less time figuring out how to use the app and more time focusing on your thoughts.</p>
                                         </li>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col className='d-flex justify-content-center'>
                                     <div className={style.projContainer}>
                                         <div className={style.projBg}>
                                             <img src={Laptop} alt='proj'  className={style.wwdPic}/>
@@ -170,12 +171,15 @@ export default function Stickup() {
                                     </div>
                                 </Col>
                             </Row>
-                            <div className='d-flex flex-column align-items-end p-5'>
-                                <li> 
-                                    <h1 className={style.wwdheader}>Sync across Devices</h1>
-                                    <p className={style.wwdTxt}>Access your notes anytime, anywhere! Stick Up's sync feature ensures that your notes are available across all your devices. Whether you're using your mobile phone, tablet, or computer, your notes are always synced and ready for you.</p>
-                                </li>
+                            <div className={style.wwdRow}>
+                                <div className='d-flex flex-column align-items-end p-4'>
+                                    <li> 
+                                        <h1 className={style.wwdheader}>Sync across Devices</h1>
+                                        <p className={style.wwdTxt}>Access your notes anytime, anywhere! Stick Up's sync feature ensures that your notes are available across all your devices. Whether you're using your mobile phone, tablet, or computer, your notes are always synced and ready for you.</p>
+                                    </li>
+                                </div>
                             </div>
+                            
                         </ol>
                     </div>
                 </section>

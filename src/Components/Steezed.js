@@ -33,13 +33,14 @@ export default function Steezed() {
             <section className={style.whiteBg}>
                 <div className={style.projectHero}>
                     <Row>
-                        <Col>
+                        <Col className='d-flex flex-column'>
                             <img src={Steezedpic} alt='project' className={style.heroPic}/>
+                            <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
                         </Col>
                         <Col className={style.heroTxtBox}>
                             <h1 className={style.heroText1}>STEEZED</h1>
                             <p className={style.heroText2}>An online marketplace where goods and services are sold making the human experience a tad bit easier while all the more appealing.</p>
-                            <Row className='mt-5'>
+                            <Row className='d-flex flex-row mt-auto'>
                                 <Col md={'auto'}>
                                     <div className={style.tag}>design</div>
                                 </Col>
@@ -56,46 +57,46 @@ export default function Steezed() {
                     <p className={style.projectBodyText}>From intuitive user registration to a secure Paystack integrated payment system, <span className={style.lighterPurple}>STEEZED</span> stands as a testament to innovation in the online marketplace realm. Whether you're a buyer exploring unique finds or a seller seeking a platform to shine, <span className={style.lighterPurple}>STEEZED</span> is your gateway to a vibrant and connected community.</p>
                 </div>
                 <div className='d-flex justify-content-center'>
-                    <Row>
-                        <Col>
-                            <img src={Laptop} alt='Project' className={style.heroPic}/>
+                    <Row className={style.fullWidth2}>
+                        <Col className='d-flex justify-content-center'>
+                            <img src={Laptop} alt='Project' className={style.protoPic4}/>
                         </Col>
-                        <Col className='d-flex align-items-center'>
+                        <Col className='d-flex justify-content-center'>
                             <img src={Tablet} alt='Project' className={style.protoPic1}/>
                         </Col>
-                        <Col className='d-flex align-items-center'>
+                        <Col className='d-flex justify-content-center'>
                             <img src={Mob} alt='Project' className={style.protoPic2}/>
                         </Col>
                     </Row>
                 </div>
-                <div className={style.skittles}>
+                <div className='d-flex justify-content-center mt-5'>
                     <Row sm={3} md={3} lg={3} className={style.skills}>
-                        <Col>
+                        <Col className='d-flex justify-content-center'>
                             <div class={style.jsPill} >
                                 <h1 class={style.skillPillTxt}>js</h1>
                             </div>
                         </Col>
-                        <Col>
+                        <Col className='d-flex justify-content-center'>
                             <div class={style.mongoPill} >
                                 <h1 class={style.skillPillTxt}>MONGO DB</h1>
                             </div>
                         </Col>
-                        <Col>
+                        <Col className='d-flex justify-content-center'>
                             <div class={style.htmlPill} >
                                 <h1 class={style.skillPillTxt}>HTML</h1>
                             </div>
                         </Col>
-                        <Col>
+                        <Col className='d-flex justify-content-center'>
                             <div class={style.cssPill} >
                                 <h1 class={style.skillPillTxt}>CSS</h1>
                             </div>
                         </Col>
-                        <Col>
+                        <Col className='d-flex justify-content-center'>
                             <div class={style.reactPill} >
                                 <h1 class={style.skillPillTxt}>REACT JS</h1>
                             </div>
                         </Col>
-                        <Col>
+                        <Col className='d-flex justify-content-center'>
                             <div class={style.nodePill} >
                                 <h1 class={style.skillPillTxt}>NODE JS</h1>
                             </div>
@@ -104,14 +105,22 @@ export default function Steezed() {
                 </div>
             </section>
             <section className={style.blackBg}>
-                <div className='d-flex flex-column align-items-center'>
+                <div className={style.fullWidth3}>
                     <h1 className={style.header}>WHAT WE DID</h1>
                     <p className={style.wwdHeaderTxt}>For the "Steezed" web application, we developed three distinct user interfaces tailored to different types of users: Adventurers (shoppers), Merchants (sellers), and Admins. Each face serves specific functions and provides unique features to enhance the user experience. Let's delve into what was implemented for each face:</p>
-                    <Tabs defaultActiveKey="ADVENTURERS">
+                    <Tabs defaultActiveKey="ADVENTURERS" >
                         <Tab eventKey="ADVENTURERS" title="ADVENTURERS">
                             <ol className={style.list2}>
                                 <Row className={style.wwdRow}>
                                     <Col>
+                                        <div className='d-flex flex-column align-items-end p-4'>
+                                            <li className={style.wwdli}> 
+                                                <h1 className={style.wwdheader}>User-Friendly Registration</h1>
+                                                <p className={style.wwdTxt}>Joining STEEZED is a breeze! Whether you're a seller or a buyer, our user-friendly registration process ensures you're part of our vibrant community in no time.</p>
+                                            </li>
+                                        </div>
+                                    </Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.projContainer}>
                                             <div className={style.projBg}>
                                                 <img src={Reg} alt='proj'  className={style.wwdPic}/>
@@ -119,25 +128,17 @@ export default function Steezed() {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col>
-                                        <div className='d-flex flex-column align-items-end p-5'>
-                                            <li> 
-                                                <h1 className={style.wwdheader}>User-Friendly Registration</h1>
-                                                <p className={style.wwdTxt}>Joining STEEZED is a breeze! Whether you're a seller or a buyer, our user-friendly registration process ensures you're part of our vibrant community in no time.</p>
-                                            </li>
-                                        </div>
-                                    </Col>
                                 </Row>
-                                <Row className={style.wwdRow}>
+                                <Row className={style.wwdRow1}>
                                     <Col>
-                                        <div className='d-flex flex-column align-items-end p-5'>
-                                            <li> 
-                                                <h1 className={style.wwdheader}> Effortless Shopping Experience</h1>
-                                                <p className={style.wwdTxt}>Say goodbye to complicated interfaces! Our intuitive design makes browsing and discovering products a joy. With categories right in sight alongside shops, navigating the marketplace is made easier.</p>
+                                        <div className='d-flex flex-column align-items-end p-4'>
+                                            <li className={style.wwdli}> 
+                                                <h1 className={style.wwdheader}>Effortless Shopping Experience</h1>
+                                                <p className={style.wwdTxt}>Say bye to complicated interfaces! Our intuitive design makes browsing and discovering products a joy. With categories right in sight alongside shops, navigating the marketplace is made easier.</p>
                                             </li>
                                         </div>
                                     </Col>
-                                    <Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.projContainer}>
                                             <div className={style.projBg}>
                                                 <img src={Cteg} alt='proj'  className={style.wwdPic}/>
@@ -148,6 +149,14 @@ export default function Steezed() {
                                 </Row>
                                 <Row className={style.wwdRow}>
                                     <Col>
+                                        <div className='d-flex flex-column align-items-end p-4'>
+                                            <li className={style.wwdli}> 
+                                                <h1 className={style.wwdheader}>MINI CART</h1>
+                                                <p className={style.wwdTxt}>Adding products to your cart is really the essence of shopping but having to always check your cart could be ruining the experience so we implemented a mini cart system. Now anytime you add a product to your cart a mini-cart slides out with everything in your cart and your total.</p>
+                                            </li>
+                                        </div>
+                                    </Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.projContainer}>
                                             <div className={style.projBg}>
                                                 <img src={Cart} alt='proj'  className={style.wwdPic}/>
@@ -155,25 +164,17 @@ export default function Steezed() {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col>
-                                        <div className='d-flex flex-column align-items-end p-5'>
-                                            <li> 
-                                                <h1 className={style.wwdheader}>MINI CART</h1>
-                                                <p className={style.wwdTxt}>Adding products to your cart is really the essence of shopping but having to always check your cart could be ruining the experience so we implemented a mini cart system. Now anytime you add a product to your cart a mini-cart slides out with everything in your cart and your total.</p>
-                                            </li>
-                                        </div>
-                                    </Col>
                                 </Row>
-                                <Row className={style.wwdRow}>
+                                <Row className={style.wwdRow1}>
                                     <Col>
-                                        <div className='d-flex flex-column align-items-end p-5'>
-                                            <li> 
+                                        <div className='d-flex flex-column align-items-end p-4'>
+                                            <li className={style.wwdli}> 
                                                 <h1 className={style.wwdheader}>SIMPLE PAYMENT SYSTEM</h1>
                                                 <p className={style.wwdTxt}>Understanding that receiving payments is a very delicate matter we elected to use a trusted external payment gateway. PAYSTACK. Using paystack, shoppers can have a hassle free experience shopping with us.</p>
                                             </li>
                                         </div>
                                     </Col>
-                                    <Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.projContainer}>
                                             <div className={style.projBg}>
                                                 <img src={Pay} alt='proj'  className={style.wwdPic}/>
@@ -188,6 +189,14 @@ export default function Steezed() {
                             <ol className={style.list2}>
                                 <Row className={style.wwdRow}>
                                     <Col>
+                                        <div className='d-flex flex-column align-items-end p-4'>
+                                            <li className={style.wwdli}> 
+                                                <h1 className={style.wwdheader}>PRODUCT MANAGEMENT</h1>
+                                                <p className={style.wwdTxt}>Product managing is where most of being a seller happens. We decided to keep things simple with an almost bare-boned product creation page and a straight-to-the-point product listing page.</p>
+                                            </li>
+                                        </div>
+                                    </Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.projContainer}>
                                             <div className={style.projBg}>
                                                 <img src={Np} alt='proj'  className={style.wwdPic}/>
@@ -195,25 +204,17 @@ export default function Steezed() {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col>
-                                        <div className='d-flex flex-column align-items-end p-5'>
-                                            <li> 
-                                                <h1 className={style.wwdheader}>PRODUCT MANAGEMENT</h1>
-                                                <p className={style.wwdTxt}>Product managing is where most of being a seller happens. We decided to keep things simple with an almost bare-boned product creation page and a straight-to-the-point product listing page.</p>
-                                            </li>
-                                        </div>
-                                    </Col>
                                 </Row>
-                                <Row className={style.wwdRow}>
+                                <Row className={style.wwdRow1}>
                                     <Col>
-                                        <div className='d-flex flex-column align-items-end p-5'>
-                                            <li> 
+                                        <div className='d-flex flex-column align-items-end p-4'>
+                                            <li className={style.wwdli}> 
                                                 <h1 className={style.wwdheader}>ORDER MANAGEMENT</h1>
                                                 <p className={style.wwdTxt}>We decided to follow to simplistic route we started with putting all the orders in one tab. Order status can be changed in the order keeping everything seamless and simple.</p>
                                             </li>
                                         </div>
                                     </Col>
-                                    <Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.projContainer}>
                                             <div className={style.projBg}>
                                                 <img src={Order} alt='proj'  className={style.wwdPic}/>
@@ -228,6 +229,14 @@ export default function Steezed() {
                             <ol className={style.list2}>
                                 <Row className={style.wwdRow}>
                                     <Col>
+                                        <div className='d-flex flex-column align-items-end p-4'>
+                                            <li className={style.wwdli}> 
+                                                <h1 className={style.wwdheader}>User MANAGEMENT</h1>
+                                                <p className={style.wwdTxt}>Quite self-evident but we decided to give the admin a page to manage the entire marketplace. Here is the tab to see all the users of the marketplace, both the shoppers and sellers.</p>
+                                            </li>
+                                        </div>
+                                    </Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.projContainer}>
                                             <div className={style.projBg}>
                                                 <img src={User} alt='proj'  className={style.wwdPic}/>
@@ -235,25 +244,17 @@ export default function Steezed() {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col>
-                                        <div className='d-flex flex-column align-items-end p-5'>
-                                            <li> 
-                                                <h1 className={style.wwdheader}>User MANAGEMENT</h1>
-                                                <p className={style.wwdTxt}>Quite self-evident but we decided to give the admin a page to manage the entire marketplace. Here is the tab to see all the users of the marketplace, both the shoppers and sellers.</p>
-                                            </li>
-                                        </div>
-                                    </Col>
                                 </Row>
-                                <Row className={style.wwdRow}>
+                                <Row className={style.wwdRow1}>
                                     <Col>
-                                        <div className='d-flex flex-column align-items-end p-5'>
-                                            <li> 
+                                        <div className='d-flex flex-column align-items-end p-4'>
+                                            <li className={style.wwdli}> 
                                                 <h1 className={style.wwdheader}>SITE MANAGEMENT</h1>
                                                 <p className={style.wwdTxt}>Here the admin can manage the entire site although majority of it is in the works, the admin can manage the categories available in the marketplace.</p>
                                             </li>
                                         </div>
                                     </Col>
-                                    <Col>
+                                    <Col className='d-flex justify-content-center'>
                                         <div className={style.projContainer}>
                                             <div className={style.projBg}>
                                                 <img src={Catego} alt='proj'  className={style.wwdPic}/>

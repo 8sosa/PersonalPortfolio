@@ -42,7 +42,7 @@ export default function Me() {
                         <h1 class={style.sectionTxt1}>i</h1>
                         <div class={style.blackLine}></div>
                         <h1 class={style.sectionTxt2}>design</h1>
-                        <p class={style.sectionTxt3}>Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’</p>
+                        <p class={style.sectionTxt3}>I bring your vision to life through meticulous product design. Whether you need a sleek user interface, engaging user experience, or captivating visual elements, I focus on crafting designs that resonate with your target audience. From wireframes to high-fidelity mockups, I ensure every detail is thoughtfully considered to enhance your brand identity and elevate your digital presence.</p>
                     </Col>
                     <Col className='d-flex justify-content-end'>
                         <img src={Design} alt='placeholder hero' className={style.servicePic}/>
@@ -53,7 +53,7 @@ export default function Me() {
                         <h1 class={style.sectionTxt1}>ii</h1>
                         <div class={style.blackLine}></div>
                         <h1 class={style.sectionTxt2}>development</h1>
-                        <p class={style.sectionTxt3}>Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’</p>
+                        <p class={style.sectionTxt3}>With expertise in development, I transform design concepts into fully functional websites that drive results. Leveraging the latest technologies and best practices, I code responsive and scalable websites tailored to your specific requirements. From frontend to backend development, I handle everything seamlessly, ensuring smooth navigation, robust functionality, and optimal performance across devices. Your website isn't just a digital asset; it's a powerful tool for growth, and I'm dedicated to building it right.</p>
                     </Col>
                     <Col className='d-flex justify-content-end'>
                         <img src={Dev} alt='placeholder hero' className={style.servicePic}/>
@@ -64,7 +64,7 @@ export default function Me() {
                         <h1 class={style.sectionTxt1}>iii</h1>
                         <div class={style.blackLine}></div>
                         <h1 class={style.sectionTxt2}>the morales</h1>
-                        <p class={style.sectionTxt3}>Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’ Armed with an ‘ appearance is everything’</p>
+                        <p class={style.sectionTxt3}>The Morales service encapsulates the synergy of design and development, offering a comprehensive solution for your digital needs. Combining my expertise in both domains, I take your project from inception to execution with precision and flair. From conceptualizing the design aesthetic to coding the backend functionality, I ensure a cohesive and compelling online presence. With The Morales, you not only get a visually stunning website but also a seamless user experience that captivates and converts. Let's collaborate to bring your vision to life, seamlessly blending design and development for unparalleled digital success.</p>
                     </Col>
                     <Col className='d-flex justify-content-end'>
                         <img src={Morales} alt='placeholder hero' className={style.servicePic}/>

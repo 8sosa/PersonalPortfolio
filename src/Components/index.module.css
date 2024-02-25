@@ -180,7 +180,7 @@ code {
         font-family: 'Quicksand';
         font-size: 24px;
         font-weight: normal;
-        text-align: center;
+        text-align: end;
     }
     .meBtn {
         background-color: #E7EDF1 !important;
@@ -1013,7 +1013,7 @@ code {
         font-family: 'Quicksand';
         font-size: 20px;
         font-weight: normal;
-        text-align: center;
+        text-align: end;
     }
     .meBtn {
         background-color: #E7EDF1 !important;
@@ -1844,7 +1844,7 @@ code {
         font-family: 'Quicksand';
         font-size: 15px;
         font-weight: normal;
-        text-align: center;
+        text-align: end;
     }
     .meBtn {
         background-color: #E7EDF1 !important;
@@ -2668,7 +2668,7 @@ code {
         font-family: 'Quicksand';
         font-size: 10px;
         font-weight: normal;
-        text-align: center;
+        text-align: end;
     }
     .meBtn {
         background-color: #E7EDF1 !important;

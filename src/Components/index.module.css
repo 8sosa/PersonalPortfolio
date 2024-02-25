@@ -395,7 +395,7 @@ code {
     .servicePic {
         border: 2px solid #744EB3 !important;
         border-radius: 25px;
-        width: 400px;
+        width: 80%;
         height: auto;
     }
     .jsPill {

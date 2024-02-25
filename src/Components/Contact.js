@@ -23,13 +23,14 @@ export default function Contact (){
             </section>
             <section className={style.reachOutSection}>
                 <h1 className={style.reachOutSectionHeader}>reach out</h1>
-                <Form className='d-flex flex-column align-items-center'>
+                <Form className='d-flex flex-column align-items-center' action="https://formspree.io/f/mpzvrqnl" method="POST">
                     <ol className={style.list}>
                         <li className={style.input}>
                             <Form.Label htmlFor="name1" className={style.inputLabel}>Your Name?</Form.Label>
                             <Form.Control
                                 type="text"
                                 id="name1"
+                                name='name'
                                 placeholder='Amos Emmanuel *'
                                 aria-describedby="inputName"
                                 className={style.inputField}
@@ -40,6 +41,7 @@ export default function Contact (){
                             <Form.Control
                                 type="email"
                                 id="email1"
+                                name='email'
                                 placeholder='eaaisosa@gmail.com *'
                                 aria-describedby="inputEmail"
                                 className={style.inputField}
@@ -50,6 +52,7 @@ export default function Contact (){
                             <Form.Control
                                 type="text"
                                 id="organization"
+                                name='organization'
                                 placeholder='Sosa Inc'
                                 aria-describedby="inputOrganization"
                                 className={style.inputField}
@@ -60,6 +63,7 @@ export default function Contact (){
                             <Form.Control
                                 type="text"
                                 id="service"
+                                name='service'
                                 placeholder='web design, web development ...'
                                 aria-describedby="inputService"
                                 className={style.inputField}
@@ -70,13 +74,14 @@ export default function Contact (){
                             <Form.Control
                                 type="text"
                                 id="message"
+                                name='message'
                                 placeholder='Hello Sosa, i would like a ...'
                                 aria-describedby="inputMessage"
                                 className={style.inputField}
                             />
                         </li>
                     </ol>
-                        <Button className={style.sendBtn}>send message <PiPaperPlaneRightThin /></Button>
+                        <Button className={style.sendBtn} type='submit'>send message <PiPaperPlaneRightThin /></Button>
                 </Form>
             </section>
         </Container>

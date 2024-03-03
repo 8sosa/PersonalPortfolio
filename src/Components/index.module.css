@@ -361,6 +361,17 @@ code {
         font-size: 20px;
         text-align: justify;
     }
+    .resume {
+        font-family: 'Quicksand';
+        font-size: 30px;
+        text-align: justify;
+        padding: 5px;
+        border-bottom: 1px solid #935FC7;
+        border-radius: 0px;
+        color: #B36DE0;
+        justify-self: center;
+        margin-top: 20px !important;
+    }
     .section {
         margin: 100px;
     }
@@ -1193,6 +1204,17 @@ code {
         font-size: 15px;
         text-align: justify;
     }
+    .resume {
+        font-family: 'Quicksand';
+        font-size: 20px;
+        text-align: justify;
+        padding: 5px;
+        border-bottom: 1px solid #935FC7;
+        border-radius: 0px;
+        color: #B36DE0;
+        justify-self: center;
+        margin-top: 20px !important;
+    }
     .section {
         margin: 100px;
     }
@@ -2023,6 +2045,17 @@ code {
         font-family: 'Quicksand';
         font-size: 10px;
         text-align: justify;
+    }
+    .resume {
+        font-family: 'Quicksand';
+        font-size: 15px;
+        text-align: justify;
+        padding: 5px;
+        border-bottom: 1px solid #935FC7;
+        border-radius: 0px;
+        color: #B36DE0;
+        justify-self: center;
+        margin-top: 20px !important;
     }
     .section {
         margin: 50px;
@@ -2868,6 +2901,17 @@ code {
         font-family: 'Quicksand';
         font-size: 10px;
         text-align: justify;
+    }
+    .resume {
+        font-family: 'Quicksand';
+        font-size: 15px;
+        text-align: justify;
+        padding: 5px;
+        border-bottom: 1px solid #935FC7;
+        border-radius: 0px;
+        color: #B36DE0;
+        justify-self: center;
+        margin-top: 20px !important;
     }
     .section {
         margin: 50px;

@@ -28,6 +28,7 @@ export default function Me() {
                                 <br/>
                                 <span class={style.purple}>Always exploring...</span>
                             </p>
+                            <a href='/Resume-Sosa.pdf' class={style.resume}>View my Resume</a>
                         </div>
                     </Col>
                     <Col className='d-flex justify-content-center'>

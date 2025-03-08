@@ -1,13 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Container, Col, Row} from 'react-bootstrap';
-
+import Projects from './Projects.json'
+// Media
 import style from './index.module.css';
-import Me from './Images/me.png';
-import Steezed from './Images/steezedlogo.png';
-import SteezedVid from './Videos/2vid.mp4';
-import Stickup from './Images/stickuplogo.png';
-import StickupVid from './Videos/home.mp4';
+import Me from './Images/me/me.PNG';
+
 
 
 export default function Home() {
@@ -36,40 +34,25 @@ export default function Home() {
             <section className={style.projectSection}>
                 <h1 className={style.Txt1}>Recent Works</h1>
                 <div className={style.projects}>
-                <a href='/steezed'>
-                    <Row className={style.project}>
-                        <Col className='d-flex justify-content-center'>
-                            <div className={style.hoverContainer}>
-                                <div className={style.background}>
-                                    <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
-                                    <video src={SteezedVid} alt="project Steezed Background Video" className={style.video} loop muted autoPlay playsInline />
-                                </div>
-                            </div>   
-                        </Col>
-                        <Col className={style.projectAttribute}>
-                            <h1 className={style.Txt2}>steezed</h1>
-                            <h1 className={style.Txt3}>design & development</h1>
-                            <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
-                        </Col>
-                    </Row>
-                </a> 
-                <a href='/Stick-up'>
-                    <Row className={style.project}>
-                        <Col className='d-flex justify-content-center'>
-                            <div className={style.hoverContainer}>
-                                <div className={style.background}>
-                                    <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
-                                    <video src={StickupVid} alt="project Stickup Background Video" className={style.video} loop muted autoPlay playsInline />
-                                </div>
-                            </div>   
-                        </Col>
-                        <Col className={style.projectAttribute}>
-                            <h1 className={style.Txt2}>STICK UP</h1>
-                            <h1 className={style.Txt3}>design & development</h1>
-                            <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
-                        </Col>
-                    </Row>
-                </a> 
+                    {Projects.map((project, index) => (
+                        <a href={project.link} key={index}>
+                            <Row className={style.project}>
+                                <Col className='d-flex justify-content-center'>
+                                    <div className={style.hoverContainer}>
+                                        <div className={style.background}>
+                                            <img src={require(`../Components/Images/projects/${project.projectImg}`)} alt={project.projectName} className={style.projectImage}/>
+                                            <video src={require(`../Components/Images/projects/${project.projectVid}`)} alt={project.projectName} className={style.video} loop muted autoPlay playsInline />
+                                        </div>
+                                    </div>   
+                                </Col>
+                                <Col className={style.projectAttribute}>
+                                    <h1 className={style.Txt2}>{project.projectName}</h1>
+                                    <h1 className={style.Txt3}>{project.job}</h1>
+                                    <a href={project.projectLink} className={style.Txt4} target="_blank" rel="noreferrer">Visit {project.projectName}</a>
+                                </Col>
+                            </Row>
+                        </a> 
+                    ))}
                 </div>
             </section>
         </Container>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfront=self.webpackChunkfront||[]).push([[99],{9099:(t,e,s)=>{t.exports=s.p+"static/media/txt.82ba36b5f023fe7b2882.txt"}}]);

@@ -15,25 +15,9 @@ code {
     margin: 0px !important;
     padding: 0px !important;
 }
-/* @keyframes slideInOut {
-    0% {
-      transform: translateX(100%);
-    }
-    50% {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    51% {
-      transform: translateX(100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-    }
-  } */
-  a {
+a {
     text-decoration: none !important;
-  }
+}
   
 
 @media (min-width: 1440px) {
@@ -195,7 +179,7 @@ code {
         margin-top: 50px;
     }
     .meBtn:hover, .meBtn:focus, .meBtn:active {
-        background-image: url('../Components/Images/smallme1.jpg');
+        background-image: url('../Components/Images/me/smallme1.jpg');
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat; 
@@ -273,8 +257,9 @@ code {
         height: 100%;
         border: 2px solid #744EB3;
         border-radius: 25px;
-        object-fit: cover;
+        object-fit: contain;
         display: none;
+        background-color: #000;
     }  
     .hoverContainer:hover .projectImage {
         display: none;
@@ -1039,7 +1024,7 @@ code {
         margin-top: 50px;
     }
     .meBtn:hover, .meBtn:focus, .meBtn:active {
-        background-image: url('../Components/Images/smallme1.jpg');
+        background-image: url('../Components/Images/me/smallme1.jpg');
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat; 
@@ -1117,7 +1102,7 @@ code {
         height: 100%;
         border: 2px solid #744EB3;
         border-radius: 25px;
-        object-fit: cover;
+        object-fit: contain;
         display: none;
     }  
     .hoverContainer:hover .projectImage {
@@ -1881,7 +1866,7 @@ code {
         margin-top: 50px;
     }
     .meBtn:hover, .meBtn:focus, .meBtn:active {
-        background-image: url('../Components/Images/smallme1.jpg');
+        background-image: url('../Components/Images/me/smallme1.jpg');
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat; 
@@ -1959,7 +1944,7 @@ code {
         height: 100%;
         border: 2px solid #744EB3;
         border-radius: 25px;
-        object-fit: cover;
+        object-fit: contain;
         display: none;
     }  
     .hoverContainer:hover .projectImage {
@@ -2716,7 +2701,7 @@ code {
         margin-top: 15px;
     }
     .meBtn:hover, .meBtn:focus, .meBtn:active {
-        background-image: url('../Components/Images/smallme1.jpg');
+        background-image: url('../Components/Images/me/smallme1.jpg');
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat; 
@@ -2796,7 +2781,7 @@ code {
         height: 100%;
         border: 2px solid #744EB3;
         border-radius: 25px;
-        object-fit: cover;
+        object-fit: contain;
         display: none;
     }  
     .hoverContainer:hover .projectImage {

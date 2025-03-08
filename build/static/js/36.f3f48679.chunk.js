@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfront=self.webpackChunkfront||[]).push([[36],{8036:(e,s,t)=>{e.exports=t.p+"static/media/smallme1.c214d99860d5f93b1d13.jpg"}}]);

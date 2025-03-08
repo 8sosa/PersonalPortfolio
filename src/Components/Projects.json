@@ -1,0 +1,176 @@
+[
+  {
+    "link": "/hog",
+    "projectLink": "https://huesofgigi.netlify.app/",
+    "projectName": "Hues Of Gigi",
+    "projectSell": "A master at work.",
+    "projectTag": "The web portfolio of the Sarah Adekoya",
+    "job": "Design & Development",
+    "projectDesc": "For a conventional artist, a digital portfolio serves as an online extension of their physical work. It provides a curated gallery where potential clients, galleries, and art enthusiasts can view high-quality images of traditional artworks such as paintings, drawings, or sculptures.",
+    "projectDesc1": "Beyond just displaying completed projects, a digital portfolio for a digital artist often tells a story about their process and evolution, featuring behind-the-scenes insights and iterative works that illustrate their problem-solving abilities. This format not only emphasizes the versatility and innovation in their art but also aligns with the digital mediums they work with, creating a seamless narrative between the artist's skills and the presentation of their work.",
+    "largeImg": "hog_large.png",
+    "mediumImg": "hog_medium.png",
+    "smallImg": "hog_small.png",
+    "projectImg": "hoglogo.GIF",
+    "projectVid": "hogvid.mov",
+    "tools": ["REACT","HTML", "CSS", "NODE JS", "MONGO DB", "JS"],
+    "reflection": "Hues Of Gigi has been a journey of artistic exploration and innovation. Each challenge has pushed us to blend technology with art, creating a platform that celebrates creativity and fosters meaningful collaboration.",
+    "listItems": [
+      
+      {
+        "title": "Concise Design:",
+        "content": "Sometimes simple is best, bold isn't always beautiful."
+      },
+      {
+        "title": "Teamwork = Dream Work:",
+        "content": "When working with artist, make sure to have them involved in the design process as much as possible because they have beautiful insights."
+      },
+      {
+        "title": "Creative Collaborations:",
+        "content": "Working with artists raises the bar for creativity and design. Artists are never content, only satisfied."
+      }
+    ]
+  },
+    {
+      "link": "/niah",
+      "projectLink": "https://niah-foundation.netlify.app/",
+      "projectName": "Niah Foundation",
+      "projectSell": "Bridging Basic Needs and Mental Health Awareness",
+      "projectTag": "Empowering communities through mental health education and holistic wellness.",
+      "job": "Design & Development",
+      "projectDesc": "Niah Foundation began as a spark of passion during Chenaniah Bamishile's university years, driven by a deep commitment to mental health awareness and support for children with special needs. The Green Hearts Initiative—a social media campaign that launched open conversations on campus—was our first step in reducing stigma and sharing real-life experiences.",
+      "projectDesc1": "Expanding beyond the campus, we addressed immediate community needs by renovating schools, distributing food, and providing healthcare while integrating mental health education. Today, Niah Foundation stands as a beacon of hope, connecting communities with affordable resources to foster holistic wellness. \n\nOur Mission: To bring mental health awareness into every African home and promote the inclusion of special needs individuals into systems across the continent.\nOur Vision: To be the foremost voice and movement on mental health in Africa.",
+      "largeImg": "niah_large.png",
+      "mediumImg": "niah_medium.png",
+      "smallImg": "niah_small.png",
+      "projectImg": "niahlogo.png",
+      "projectVid": "niahvid.mov",
+      "tools": ["REACT","HTML", "CSS", "NODE JS", "MONGO DB", "JS"],
+      "reflection": "Working on the Niah Foundation project taught us the value of listening to community voices and the transformative power of mental health education. Every challenge was an opportunity to innovate and connect.",
+      "listItems": [
+        {
+          "title": "Community Engagement:",
+          "content": "Working with a foundation means interacting with a bunch of people which could be draining although it improved my official lingo."
+        },
+        {
+          "title": "Adaptability:",
+          "content": "A busy founder means not a lot of time to review so be ready to make changes quick and work on their schedule."
+        },
+        {
+          "title": "Content Pipeline:",
+          "content": "Make sure to inform clients to begin gathering content for the website immediately after commission or else you may be stuck making changes for months."
+        }
+      ]
+    },
+    {
+      "link": "/vcf",
+      "projectLink": "https://violetcarefoundation.netlify.app/",
+      "projectName": "Violet Care Foundation",
+      "projectSell": "Empowering Women and Nurturing Nature for a Sustainable Future",
+      "projectTag": "Inspiring societal transformation through empowerment, education, and sustainable initiatives for women and girls.",
+      "job": "Design & Development",
+      "projectDesc": "Originally founded as SheUnitesAfrica (SUA) in 2020 by Miss Anastacia Amarachi Nickson and Miss Chidimma Frances Okoye, Violet Care Foundation for Women and Nature is built on a commitment to inspire and empower women to drive positive societal change. Our mission is to create a world where women and girls have equal opportunities to thrive.",
+      "projectDesc1": "Through in-depth research and direct engagement with vulnerable communities, we address challenges such as poverty, limited education, and financial insecurity. Our initiatives promote community development, food security, improved health awareness, and progress toward sustainable development goals—preparing women for personal, career, and economic success.",
+      "largeImg": "vcf_large.png",
+      "mediumImg": "vcf_medium.png",
+      "smallImg": "vcf_small.png",
+      "projectImg": "sualogo.png",
+      "projectVid": "suavid.mov",
+      "tools": ["REACT","HTML", "CSS", "NODE JS", "MONGO DB", "JS"],
+      "reflection": "Working on Violet Care Foundation has been transformative—reinforcing our commitment to empower women and enact positive societal change through informed, compassionate initiatives.",
+      "listItems": [
+        {
+          "title": "Image Optimization:",
+          "content": "Always optimize media before deploy to improve runtime."
+        }
+      ]
+    },
+    {
+      "link": "/steezed",
+      "projectLink": "https://stezzed.onrender.com",
+      "projectName": "Steezed",
+      "projectSell": "- Where Buyers and Sellers Connect!",
+      "projectTag": "An online marketplace where goods and services are sold making the human experience a tad bit easier while all the more appealing.",
+      "job": "Design & Development",
+      "projectDesc": " the cutting-edge online marketplace designed and developed to transform the way buyers and sellers engage. This platform is a dynamic hub, bringing together quality products and enthusiastic consumers, crafting a seamless and enjoyable shopping experience for everyone involved.",
+      "projectDesc1": "From intuitive user registration to a secure Paystack integrated payment system, <span className=\"lighterPurple\">Steezed</span> stands as a testament to innovation in the online marketplace realm. Whether you're a buyer exploring unique finds or a seller seeking a platform to shine, <span className=\"lighterPurple\">Steezed</span> is your gateway to a vibrant and connected community.",
+      "largeImg": "laptop.png",
+      "mediumImg": "tablet.png",
+      "smallImg": "mobile.png",
+      "projectImg": "steezedlogo.png",
+      "projectVid": "steezedvid.mov",
+      "tools": ["REACT","HTML", "CSS", "NODE JS", "MONGO DB", "JS"],
+      "whatWeLearnt": "steezedLearnt.js",
+      "reflection": "Working on STEEZED opened my eyes to many issues I had overlooked in my learning journey. 'One of the basic rules of the universe is that NOTHING IS PERFECT. Perfection simply doesn't exist... without imperfection, neither you nor I would exist.' This quote is what I have been using to pacify myself as not all my ideas were brought to light lol, some were killed by bugs or lack of knowledge/resources still here we are. This is what we've learnt:",
+      "listItems": [
+          {
+            "title": "image handling",
+            "content": "Image handling is something I did not expect to be an issue but taking into account this is a marketplace, server-side-storage is not the most appropriate but it is what we went with, storing the image name on the database rather than the image itself so it could just call the image. I do understand that this would not be a feasible solution if this was an actual product to be delivered but as this is a personal project, \"Nothing is PERFECT\"."
+          },
+          {
+            "title": "PAYMENT INTEGRATION",
+            "content": "Stripeeee, I put my all into making stripe work just to finally give up and ask a friend for advice then finding out stripe was not supported in my region rather they had an affiliation of some sorts with Paystack which I could use. That was an experience."
+          },
+          {
+            "title": "Order management",
+            "content": "Having to link the orders the shoppers make to sellers so sellers could change the status of shoppers orders was another ordeal I had to overcome but luckily I was able to work around it using the unique ids. MongoDB is still superior!!!"
+          },
+          {
+            "title": "design choices",
+            "content": "I initially loved the design I went with but the further I went I started to dislike it. I sacrificed a lot of space for aesthetics which in my opinion was not worth it, I will not be doing that again."
+          },
+          {
+            "title": "CSS",
+            "content": "I wrote so much css for this project that at some point git thought it was a css project. I learnt to stop re-writing styles I already have, just reusing them. This was able to cut down a lot of code for me so that's a win."
+          },
+          {
+            "title": "RESPONSIVENESS",
+            "content": "Multiple screen widths is the sauce. I figured I could just design for two screen widths (mobile and desktop) as everything between that can be repurposed and refined easily rather that doggedly doing each screen width one by one."
+          },
+          {
+            "title": "controllers",
+            "content": "Asides testing your controllers after writing them I've learnt to add comments into the code to keep myself informed and in the loop so I don't become a stranger in my own work."
+          }
+      ]
+      },
+      {
+      "link": "/stick-up",
+      "projectLink": "https://stick-up.onrender.com",
+      "projectName": "Stick Up",
+      "projectSell": "- Organize Your Ideas Effortlessly!",
+      "projectTag": "A note making app with organization functionality for you to store your secrets... or any other thing you want.",
+      "job": "Design & Development",
+      "projectDesc": "Get ready to experience a new level of note organization with <span className=\"lighterPurple\">Stick Up</span>. From seamless user registration to a user-friendly interface, <span className=\"lighterPurple\">Stick Up</span> is designed to simplify your note-taking journey. Create personalized folders effortlessly to keep your notes organized and easily accessible.",
+      "projectDesc1": "<span className=\"lighterPurple\">Stick Up</span> provides you with the perfect platform to create and manage your notes with ease. With a simple note creation feature, you can quickly capture your thoughts and ideas, ensuring that you never miss an important detail. Join the <span className=\"lighterPurple\">Stick Up</span> community today and discover the joy of organized note-taking in just a few clicks.",
+      "largeImg": "home.png",
+      "mediumImg": "tabstick.png",
+      "smallImg": "mobilestick.png",
+      "projectImg": "stickuplogo.png",
+      "projectVid": "stickvid.mov",
+      "tools": ["REACT","HTML", "CSS", "NODE JS", "MONGO DB", "JS"],
+      "whatWeLearnt": "stickLearnt.js",
+      "reflection": "Working on STICK-UP was scary because it was my first full-stack project but here we are. I'd like to thank myself for seeing this true and not dropping this at times where i did not know how to progress but that's not what we're here for. This is what we've learnt:",
+      "listItems": [
+          {
+            "title": "Controllers:",
+            "content": "Writing controllers really tested my JS skills and knowlegde, i basically had to learn it all again so of course i ran into errors especially connecting these controllers to the front-end but i'm here right now which means i got through it."
+          },
+          {
+            "title": "Styling:",
+            "content": "I did not take any design courses before this so i had to learn on the fly. I suffered. I am not upset with how it turned out although the process was not the most exciting."
+          },
+          {
+            "title": "Database Connection:",
+            "content": "Connecting to databases is more than just adding the URI, i learnt that the slow and excrutiating way (not really but i want to vent). Uploading and retrieving data is fun though when you see all the things it allows you to do."
+          },
+          {
+            "title": "Token Handling:",
+            "content": "Retrieving and working with tokens was a hassle to learn with how delicate it is but i was triumphant."
+          },
+          {
+            "title": "General Improvement:",
+            "content": " I'm just going to list things i learnt now without context. Handling enviroment variables, Github, connecting front-end to back-end, design rule-of-thumbs, MongoDB, React vs React-Bootstrap, and many much more."
+          }
+      ]
+    }
+]

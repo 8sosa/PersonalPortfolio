@@ -3,17 +3,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Col, Row } from 'react-bootstrap';
 import style from './index.module.css';
 
-import StickupPic from './Images/stickuplogo.png';
-import Laptop from './Images/home.png';
-import Tablet from './Images/tabstick.png';
-import Mob from './Images/mobilestick.png';
-import CFold from './Images/cfold.png';
-import CFoldVid from './Videos/cfold.mp4';
-import CNote from './Images/create.png';
-import CNoteVid from './Videos/create.mp4';
-import Login from './Images/login.png';
-import LoginVid from './Videos/login.mp4';
-import Navi from './Videos/navi.mp4'
+import StickupPic from './Images/projects/stickuplogo.png';
+import Laptop from './Images/projects/stickuplogo.png';
+import Tablet from './Images/projects/stickuplogo.png';
+import Mob from './Images/projects/stickuplogo.png';
+import CFold from './Images/projects/stickuplogo.png';
+import CFoldVid from './Videos/vid.mp4';
+import CNote from './Images/projects/stickuplogo.png';
+import CNoteVid from './Videos/vid.mp4';
+import Login from './Images/projects/stickuplogo.png';
+import LoginVid from './Videos/vid.mp4';
+import Navi from './Videos/vid.mp4'
 
 
 export default function Stickup() {
@@ -42,7 +42,7 @@ export default function Stickup() {
                         </Row>
                     </div>
                     <div className='d-flex flex-column align-items-center'>
-                        <h1 className={style.projectHeaderTxt}><span className={style.lighterPurple}>Stick Up</span> - Organize Your Ideas Effortlessly!</h1>
+                        <h1 className={style.projectHeaderTxt}><span className={style.lighterPurple}>Stick Up</span> </h1>
                         <p className={style.projectBodyTxt}>Get ready to experience a new level of note organization with <span className={style.lighterPurple}>Stick Up</span>. From seamless user registration to a user-friendly interface, <span className={style.lighterPurple}>Stick Up</span> is designed to simplify your note-taking journey. Create personalized folders effortlessly to keep your notes organized and easily accessible.</p>
                         <p className={style.projectBodyText}><span className={style.lighterPurple}>Stick Up</span> provides you with the perfect platform to create and manage your notes with ease. With a simple note creation feature, you can quickly capture your thoughts and ideas, ensuring that you never miss an important detail. Join the <span className={style.lighterPurple}>Stick Up</span> community today and discover the joy of organized note-taking in just a few clicks.</p>
                     </div>

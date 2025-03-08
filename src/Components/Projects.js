@@ -1,12 +1,10 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Col, Row, Nav, Tab} from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 
 import style from './index.module.css'
-import Steezed from './Images/steezedlogo.png'
-import SteezedVid from './Videos/2vid.mp4'
-import Stickup from './Images/stickuplogo.png';
-import StickupVid from './Videos/home.mp4';
+import MyProjects from './Projects.json'
+
 
 
 
@@ -19,168 +17,26 @@ export default function Projects() {
             </section>
             <section className={style.projectSection}>
                 <div className={style.projects}>
-                    <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-                        <Nav variant="pills" defaultActiveKey="first">
-                            <Nav.Item className={style.navlinkpill}>
-                                <Nav.Link eventKey="first" className={style.navLink}>All</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item className={style.navlinkpill}>
-                                <Nav.Link eventKey="second" className={style.navLink}>design</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item className={style.navlinkpill}>
-                                <Nav.Link eventKey="third" className={style.navLink}>development</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item className={style.navlinkpill}>
-                                <Nav.Link eventKey="fourth" className={style.navLink}>the morales</Nav.Link>
-                            </Nav.Item>
-                        </Nav>
-                        <Tab.Content>
-                            <Tab.Pane eventKey="first">
-                            <a href='/steezed'>
-                                <Row className={style.project}>
-                                    <Col className='d-flex justify-content-center'>
-                                        <div className={style.hoverContainer}>
-                                            <div className={style.background}>
-                                                <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
-                                                <video src={SteezedVid} alt="project Steezed Background Video" className={style.video} loop muted autoPlay playsInline />
-                                            </div>
-                                        </div>   
-                                    </Col>
-                                    <Col className={style.projectAttribute}>
-                                        <h1 className={style.Txt2}>steezed</h1>
-                                        <h1 className={style.Txt3}>design & development</h1>
-                                        <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
-                                    </Col>
-                                </Row>
-                            </a> 
-                            <a href='/Stick-up'>
-                                <Row className={style.project}>
-                                    <Col className='d-flex justify-content-center'>
-                                        <div className={style.hoverContainer}>
-                                            <div className={style.background}>
-                                                <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
-                                                <video src={StickupVid} alt="project Stickup Background Video" className={style.video} loop muted autoPlay playsInline />
-                                            </div>
-                                        </div>   
-                                    </Col>
-                                    <Col className={style.projectAttribute}>
-                                        <h1 className={style.Txt2}>STICK UP</h1>
-                                        <h1 className={style.Txt3}>design & development</h1>
-                                        <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
-                                    </Col>
-                                </Row>
-                            </a> 
-                            </Tab.Pane>
-                            <Tab.Pane eventKey="second">
-                            <a href='/steezed'>
-                                <Row className={style.project}>
-                                    <Col className='d-flex justify-content-center'>
-                                        <div className={style.hoverContainer}>
-                                            <div className={style.background}>
-                                                <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
-                                                <video src={SteezedVid} alt="project Steezed Background Video" className={style.video} loop muted autoPlay playsInline />
-                                            </div>
-                                        </div>   
-                                    </Col>
-                                    <Col className={style.projectAttribute}>
-                                        <h1 className={style.Txt2}>steezed</h1>
-                                        <h1 className={style.Txt3}>design & development</h1>
-                                        <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
-                                    </Col>
-                                </Row>
-                            </a> 
-                            <a href='/Stick-up'>
-                                <Row className={style.project}>
-                                    <Col className='d-flex justify-content-center'>
-                                        <div className={style.hoverContainer}>
-                                            <div className={style.background}>
-                                                <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
-                                                <video src={StickupVid} alt="project Stickup Background Video" className={style.video} loop muted autoPlay playsInline />
-                                            </div>
-                                        </div>   
-                                    </Col>
-                                    <Col className={style.projectAttribute}>
-                                        <h1 className={style.Txt2}>STICK UP</h1>
-                                        <h1 className={style.Txt3}>design & development</h1>
-                                        <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
-                                    </Col>
-                                </Row>
-                            </a> 
-                            </Tab.Pane>
-                            <Tab.Pane eventKey="third">
-                            <a href='/steezed'>
-                                <Row className={style.project}>
-                                    <Col className='d-flex justify-content-center'>
-                                        <div className={style.hoverContainer}>
-                                            <div className={style.background}>
-                                                <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
-                                                <video src={SteezedVid} alt="project Steezed Background Video" className={style.video} loop muted autoPlay playsInline />
-                                            </div>
-                                        </div>   
-                                    </Col>
-                                    <Col className={style.projectAttribute}>
-                                        <h1 className={style.Txt2}>steezed</h1>
-                                        <h1 className={style.Txt3}>design & development</h1>
-                                        <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
-                                    </Col>
-                                </Row>
-                            </a> 
-                            <a href='/Stick-up'>
-                                <Row className={style.project}>
-                                    <Col className='d-flex justify-content-center'>
-                                        <div className={style.hoverContainer}>
-                                            <div className={style.background}>
-                                                <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
-                                                <video src={StickupVid} alt="project Stickup Background Video" className={style.video} loop muted autoPlay playsInline />
-                                            </div>
-                                        </div>   
-                                    </Col>
-                                    <Col className={style.projectAttribute}>
-                                        <h1 className={style.Txt2}>STICK UP</h1>
-                                        <h1 className={style.Txt3}>design & development</h1>
-                                        <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
-                                    </Col>
-                                </Row>
-                            </a> 
-                            </Tab.Pane>
-                            <Tab.Pane eventKey="fourth">
-                            <a href='/steezed'>
-                                <Row className={style.project}>
-                                    <Col className='d-flex justify-content-center'>
-                                        <div className={style.hoverContainer}>
-                                            <div className={style.background}>
-                                                <img src={Steezed} alt='project Steezed' className={style.projectImage}/>
-                                                <video src={SteezedVid} alt="project Steezed Background Video" className={style.video} loop muted autoPlay playsInline />
-                                            </div>
-                                        </div>   
-                                    </Col>
-                                    <Col className={style.projectAttribute}>
-                                        <h1 className={style.Txt2}>steezed</h1>
-                                        <h1 className={style.Txt3}>design & development</h1>
-                                        <a href='https://stezzed.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STEEZED</a>
-                                    </Col>
-                                </Row>
-                            </a> 
-                            <a href='/Stick-up'>
-                                <Row className={style.project}>
-                                    <Col className='d-flex justify-content-center'>
-                                        <div className={style.hoverContainer}>
-                                            <div className={style.background}>
-                                                <img src={Stickup} alt='project Stickup' className={style.projectImage}/>
-                                                <video src={StickupVid} alt="project Stickup Background Video" className={style.video} loop muted autoPlay playsInline />
-                                            </div>
-                                        </div>   
-                                    </Col>
-                                    <Col className={style.projectAttribute}>
-                                        <h1 className={style.Txt2}>STICK UP</h1>
-                                        <h1 className={style.Txt3}>design & development</h1>
-                                        <a href='https://stick-up.onrender.com' className={style.Txt4} target="_blank" rel="noreferrer">Visit STICK UP</a>
-                                    </Col>
-                                </Row>
-                            </a> 
-                            </Tab.Pane>
-                        </Tab.Content>
-                    </Tab.Container>
+                    
+                    {MyProjects.map((project, index) => (
+                        <a href={`/works${project.link}`} key={index}>
+                            <Row className={style.project}>
+                                <Col className='d-flex justify-content-center'>
+                                    <div className={style.hoverContainer}>
+                                        <div className={style.background}>
+                                            <img src={require(`../Components/Images/projects/${project.projectImg}`)} alt={project.projectName} className={style.projectImage}/>
+                                            <video src={require(`../Components/Images/projects/${project.projectVid}`)} alt={project.projectName} className={style.video} loop muted autoPlay playsInline />
+                                        </div>
+                                    </div>   
+                                </Col>
+                                <Col className={style.projectAttribute}>
+                                    <h1 className={style.Txt2}>{project.projectName}</h1>
+                                    <h1 className={style.Txt3}>{project.job}</h1>
+                                    <a href={project.projectLink} className={style.Txt4} target="_blank" rel="noreferrer">Visit {project.projectName}</a>
+                                </Col>
+                            </Row>
+                        </a> 
+                    ))}
                 </div>
             </section>
         </Container>

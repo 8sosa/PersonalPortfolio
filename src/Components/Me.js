@@ -3,11 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Col, Row} from 'react-bootstrap';
 
 import style from './index.module.css'
-import Myself from './Images/meeee.png'
-import Design from './Images/des.png'
+import Myself from './Images/me/meeee.png'
+import Design from './Images/design.png'
 import Dev from './Images/dev.png'
-import Morales from './Images/cteg.png'
-import Planet from './Images/comet.png'
+import Planet from './Images/ast.png'
 
 
 export default function Me() {
@@ -60,22 +59,11 @@ export default function Me() {
                         <img src={Dev} alt='placeholder hero' className={style.servicePic}/>
                     </Col>
                 </Row>
-                <Row className={style.fullWidth2}>
-                    <Col>
-                        <h1 class={style.sectionTxt1}>iii</h1>
-                        <div class={style.blackLine}></div>
-                        <h1 class={style.sectionTxt2}>the morales</h1>
-                        <p class={style.sectionTxt3}>The Morales service encapsulates the synergy of design and development, offering a comprehensive solution for your digital needs. Combining my expertise in both domains, I take your project from inception to execution with precision and flair. From conceptualizing the design aesthetic to coding the backend functionality, I ensure a cohesive and compelling online presence. With The Morales, you not only get a visually stunning website but also a seamless user experience that captivates and converts. Let's collaborate to bring your vision to life, seamlessly blending design and development for unparalleled digital success.</p>
-                    </Col>
-                    <Col className='d-flex justify-content-end'>
-                        <img src={Morales} alt='placeholder hero' className={style.servicePic}/>
-                    </Col>
-                </Row>
             </section>
             <section class={style.section}>
                 <h1 class={style.sectionHeader}><span class={style.orangishColor}>s</span>k<span class={style.green}>i</span>l<span class={style.bluishColor}>l</span>s</h1>
                 <div className='d-flex justify-content-center'>
-                    <Row sm={3} md={3} lg={3} className={style.skills}>
+                    <Row sm={3} md={3} lg={4} className={style.skills}>
                         <Col className='d-flex justify-content-center'>
                             <div class={style.jsPill} >
                                 <h1 class={style.skillPillTxt}>js</h1>
@@ -84,6 +72,11 @@ export default function Me() {
                         <Col className='d-flex justify-content-center'>
                             <div class={style.mongoPill} >
                                 <h1 class={style.skillPillTxt}>MONGO DB</h1>
+                            </div>
+                        </Col>
+                        <Col className='d-flex justify-content-center'>
+                            <div class={style.nodePill} >
+                                <h1 class={style.skillPillTxt}>SQL</h1>
                             </div>
                         </Col>
                         <Col className='d-flex justify-content-center'>
@@ -102,8 +95,13 @@ export default function Me() {
                             </div>
                         </Col>
                         <Col className='d-flex justify-content-center'>
-                            <div class={style.nodePill} >
+                            <div class={style.jsPill} >
                                 <h1 class={style.skillPillTxt}>NODE JS</h1>
+                            </div>
+                        </Col>
+                        <Col className='d-flex justify-content-center'>
+                            <div class={style.mongoPill} >
+                                <h1 class={style.skillPillTxt}>C # - .NET</h1>
                             </div>
                         </Col>
                     </Row>

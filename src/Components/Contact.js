@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Col, Container, Form, Row } from 'react-bootstrap'
 
 import style from './index.module.css'
-import Picolo from './Images/smallme2.jpg'
+import Picolo from './Images/me/smallme2.jpg'
 import { PiPaperPlaneRightThin } from "react-icons/pi";
 
 

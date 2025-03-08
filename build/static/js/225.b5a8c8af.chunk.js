@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfront=self.webpackChunkfront||[]).push([[225],{5225:(e,t,s)=>{e.exports=s.p+"static/media/btnBg.e45d50db6f6fe4e26c82.jpeg"}}]);

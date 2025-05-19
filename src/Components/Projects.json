@@ -13,7 +13,7 @@
     "smallImg": "filmmaker_small.png",
     "projectImg": "filmmaker.png",
     "projectVid": "filmmaker.mov",
-    "tools": ["NEXT.JS", "REACT", "TYPESCRIPT", "MONGODB", "PRISMA","HTML", "CSS"],
+    "tools": ["NEXT JS", "REACT", "TYPESCRIPT", "MONGO DB", "PRISMA", "NODE JS","HTML", "CSS"],
     "reflection": "I realized that transparency is a very important aspect to dealing with a client, as trust is very delicate. It’s best to carry them along as you progress—even if they don’t fully understand the technical details—so they always know what’s going on. Also, stick to timelines regardless of new requests. If a client is adamant on changes, explain clearly how that affects project scope and deadlines.",
     "listItems": [
       {

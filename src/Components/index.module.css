@@ -2935,7 +2935,7 @@ a {
         width: 100%;
         height: auto;
     }
-    .jsPill, .mongoPill, .htmlPill, .cssPill, .reactPill, .nodePill, .prismaPill {
+    .jsPill, .mongoPill, .htmlPill, .cssPill, .reactPill, .nodePill, .prismaPill, .nextPill {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -2964,7 +2964,10 @@ a {
         background-color: #68A063;
     }
     .prismaPill {
-        background-color: #E7EDF1;
+        background-color: #85b2d0;
+    }
+    .nextPill {
+        background-color: hsl(87, 68%, 70%);
     }
     .skillPillTxt {
         font-family: 'Quicksand';

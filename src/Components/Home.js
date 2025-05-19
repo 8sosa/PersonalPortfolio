@@ -35,7 +35,7 @@ export default function Home() {
                 <h1 className={style.Txt1}>Recent Works</h1>
                 <div className={style.projects}>
                     {Projects.map((project, index) => (
-                        <a href={project.link} key={index}>
+                        <a href={`/works${project.link}`} key={index}>
                             <Row className={style.project}>
                                 <Col className='d-flex justify-content-center'>
                                     <div className={style.hoverContainer}>

@@ -1,5 +1,75 @@
 [
   {
+    "link": "/filmmaker",
+    "projectLink": "https://filmmaker-sample.netlify.app",
+    "projectName": "Filmmaker Website",
+    "projectSell": "Stream, learn, shop & consult—all in one place",
+    "projectTag": "A full-featured site for a filmmaker: streaming, masterclasses, tickets, merch & consultations",
+    "job": "Design & Development",
+    "projectDesc": "A website for a filmmaker offering direct streaming of films, purchasing access to masterclasses, buying screening tickets and merchandise, and booking one-on-one consultations.",
+    "projectDesc1": "Built with Next.js and React for a seamless UI, TypeScript for type safety, and MongoDB with Prisma for robust data management.",
+    "largeImg": "filmmaker_large.png",
+    "mediumImg": "filmmaker_medium.png",
+    "smallImg": "filmmaker_small.png",
+    "projectImg": "filmmaker.png",
+    "projectVid": "filmmaker.mov",
+    "tools": ["NEXT.JS", "REACT", "TYPESCRIPT", "MONGODB", "PRISMA","HTML", "CSS"],
+    "reflection": "I realized that transparency is a very important aspect to dealing with a client, as trust is very delicate. It’s best to carry them along as you progress—even if they don’t fully understand the technical details—so they always know what’s going on. Also, stick to timelines regardless of new requests. If a client is adamant on changes, explain clearly how that affects project scope and deadlines.",
+    "listItems": [
+      {
+        "title": "Streaming Insights:",
+        "content": "DRM solutions can be very expensive, so leveraging third-party streaming services was a strategic cost-saving choice."
+      },
+      {
+        "title": "Content Management:",
+        "content": "By storing all front-end content in a JSON file, clients can update text and assets directly—no custom CMS interface required."
+      },
+      {
+        "title": "Timeline Discipline:",
+        "content": "Maintaining strict deadlines, even with scope changes, builds credibility; always document how new requests impact delivery dates."
+      },
+      {
+        "title": "Client Education:",
+        "content": "Invest time early to explain technical trade-offs—it empowers clients to make informed decisions without derailing the project."
+      }
+    ]
+  },
+  {
+    "link": "/dodeq",
+    "projectLink": "https://dodeq.netlify.app",
+    "projectName": "Multi-Passion Portfolio",
+    "projectSell": "Showcasing fashion, engineering, poetry, cooking & more",
+    "projectTag": "A dynamic portfolio for a creative polymath exploring every facet of her passions",
+    "job": "Design & Development",
+    "projectDesc": "A web portfolio that takes you from high-fashion lookbooks to engineering projects, interspersed with poetry and cooking explorations—everything she’s passionate about is here.",
+    "projectDesc1": "Built with React and plain JavaScript, with dedicated pages for each discipline, seamless navigation, and a cohesive yet playful design language.",
+    "largeImg": "portfolio_large.png",
+    "mediumImg": "portfolio_medium.png",
+    "smallImg": "portfolio_small.png",
+    "projectImg": "dodeqlogo.png",
+    "projectVid": "dodeqvid.mov",
+    "tools": ["REACT","HTML", "CSS", "NODE JS", "MONGO DB", "JS"],
+    "reflection": "I realized that regular sync-ups and discovery sessions really aid design and flow, ensuring the project not only meets requirements but also resonates with the client. Version management is crucial too—keeping branches organized prevents conflicts and confusion.",
+    "listItems": [
+      {
+        "title": "Git Version Management:",
+        "content": "Branch per feature and frequent merges keep codebases clean and make rollbacks straightforward."
+      },
+      {
+        "title": "Nameserver Transfers:",
+        "content": "Coordinating DNS changes early avoids downtime—plan TTL reductions and registrar hand-offs well in advance."
+      },
+      {
+        "title": "Discovery Sessions:",
+        "content": "Weekly check-ins uncover evolving needs and catch misalignments before they become costly rework."
+      },
+      {
+        "title": "Modular Component Design:",
+        "content": "Building reusable React components for each page’s unique section accelerates development and ensures consistency."
+      }
+    ]
+  },
+  {
     "link": "/hog",
     "projectLink": "https://huesofgigi.netlify.app/",
     "projectName": "Hues Of Gigi",

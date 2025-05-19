@@ -62,7 +62,8 @@ export default function Project ({project}) {
         'CSS': style.cssPill,
         'NODE JS': style.nodePill,
         'MONGO DB': style.mongoPill,
-        'JS': style.jsPill
+        'JS': style.jsPill,
+        'PRISMA': style.prismaPill,
     };
 
   return (

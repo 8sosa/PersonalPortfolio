@@ -2935,8 +2935,7 @@ a {
         width: 100%;
         height: auto;
     }
-    .jsPill {
-        background-color: #FFE603;
+    .jsPill, .mongoPill, .htmlPill, .cssPill, .reactPill, .nodePill, .prismaPill {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -2945,61 +2944,27 @@ a {
         border-radius: 15px;
         width: 100px;
         margin-bottom: 25px;
+    }
+    .jsPill {
+        background-color: #FFE603;
     }
     .mongoPill {
         background-color: #65FF3E;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        padding: 10px;
-        border: 2px solid #000;
-        border-radius: 15px;
-        width: 100px;
-        margin-bottom: 25px;
     }
     .htmlPill {
         background-color: #F06529;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        padding: 10px;
-        border: 2px solid #000;
-        border-radius: 15px;
-        width: 100px;
-        margin-bottom: 25px;
     }
     .cssPill {
         background-color: #3C99DC;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        padding: 10px;
-        border: 2px solid #000;
-        border-radius: 15px;
-        width: 100px;
-        margin-bottom: 25px;
     }
     .reactPill {
         background-color: #61DBFB;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        padding: 10px;
-        border: 2px solid #000;
-        border-radius: 15px;
-        width: 100px;
-        margin-bottom: 25px;
     }
     .nodePill {
         background-color: #68A063;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        padding: 10px;
-        border: 2px solid #000;
-        border-radius: 15px;
-        width: 100px;
-        margin-bottom: 25px;
+    }
+    .prismaPill {
+        background-color: #E7EDF1;
     }
     .skillPillTxt {
         font-family: 'Quicksand';
